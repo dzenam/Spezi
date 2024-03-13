@@ -10,6 +10,10 @@ import XCTest
 
 
 final class ModelTests: XCTestCase {
+    /*
+    * @tests:MND-123
+    * @itemTitle:"Test Model"
+    */
     func testModelPropertyWrapper() throws {
         let app = XCUIApplication()
         app.launch()

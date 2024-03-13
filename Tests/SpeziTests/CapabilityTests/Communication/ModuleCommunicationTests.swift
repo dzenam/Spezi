@@ -54,11 +54,13 @@ final class ModuleCommunicationTests: XCTestCase {
     private static var collectModule = CollectModule()
 
 
+    // @itemTitle:"Simple Communication"
     override func setUp() {
         Self.provideModule = ProvideModule1()
         Self.collectModule = CollectModule()
     }
 
+    // @itemTitle:"Simple Communication" @tests:MND-555
     func testSimpleCommunication() throws {
         let delegate = TestApplicationDelegate()
         _ = delegate.spezi // ensure init

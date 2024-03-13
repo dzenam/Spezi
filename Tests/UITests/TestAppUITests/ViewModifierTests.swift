@@ -10,6 +10,7 @@ import XCTest
 
 
 final class ViewModifierTests: XCTestCase {
+    // @tests:MND-325
     func testViewModifierPropertyWrapper() throws {
         let app = XCUIApplication()
         app.launch()

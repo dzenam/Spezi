@@ -11,6 +11,9 @@ import XCTestExtensions
 
 
 final class LifecycleHandlerTests: XCTestCase {
+    // @tests:MND-311
+    // @itemTitle:"LifecycleHandler"
+    // @itemId:123
     func testLifecycleHandler() throws {
         #if os(macOS) || os(watchOS)
             throw XCTSkip("LifecycleHandler is not supported on macOS or watchOS.")
